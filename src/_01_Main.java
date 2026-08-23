@@ -10,10 +10,10 @@ public class _01_Main {
         // This is a comment
 
         /*
-        *This
-        * is
-        * a
-        * comment
-        * */
+         *This
+         * is
+         * a
+         * comment
+         * */
     }
 }
