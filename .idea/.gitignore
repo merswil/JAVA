@@ -9,3 +9,7 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 /Java Note.iml
+# Append the file patterns to .gitignore
+echo "*.iml" >> .gitignore
+echo ".idea/" >> .gitignore
+echo "out/" >> .gitignore
