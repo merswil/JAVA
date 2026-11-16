@@ -1,0 +1,43 @@
+cat > .gitignore << 'EOF'
+# Compiled Java
+*.class
+*.jar
+*.war
+hs_err_pid*
+
+# Build output
+target/
+build/
+out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Other editors
+.vscode/
+.classpath
+.project
+.settings/
+nbproject/
+
+# Logs
+*.log
+logs/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# Secrets and local settings (never commit these)
+.env
+*.pem
+*.key
+application-local.properties
+application-local.yml
+secrets/
+EOF
